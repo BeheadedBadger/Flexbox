@@ -35,15 +35,18 @@ main {
 nav {
     flex-grow: 0;
     flex-shrink: 0;
+    width: 200px;
 }
 
 header {
     flex-grow: 0;
     flex-shrink: 0;
+    height: 100px;
 }
 
 footer {
     flex-grow: 0;
     flex-shrink: 0;
+    height: 100px;
 }
 
