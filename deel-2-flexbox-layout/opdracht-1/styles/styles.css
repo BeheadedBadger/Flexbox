@@ -1,1 +1,45 @@
-/*Schrijf hier jouw CSS*/
+html {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    border: #1A293A solid 2px;
+}
+
+header {
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+article {
+    flex-grow: 3;
+    overflow: auto;
+}
+
+nav {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+aside {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+footer {
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
