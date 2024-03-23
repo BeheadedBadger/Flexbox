@@ -1,1 +1,64 @@
-/*Schrijf hier jouw CSS*/
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    height: 100%;
+}
+
+
+.outer-col-1 {
+    min-width: 300px;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+article{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    min-height: 150px;
+}
+
+header {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    min-height: 150px;
+}
+
+aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-width: 300px;
+    height: 100%;
+}
